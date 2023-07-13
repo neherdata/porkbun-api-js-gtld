@@ -8,7 +8,7 @@ on:
 jobs:
   asciicast:
     name: Asciicast to GIF
-    runs-on: ubuntu-latest
+    runs-on: docker
     steps:
       - uses: dgzlopes/asciicast-to-gif-action@v1.0
         with:
