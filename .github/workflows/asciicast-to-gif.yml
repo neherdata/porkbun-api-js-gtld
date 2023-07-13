@@ -10,8 +10,8 @@ jobs:
     name: Asciicast to GIF
     runs-on: ubuntu-latest
     steps:
-      uses: dgzlopes/asciicast-to-gif-action@v1.0
-      with:
-        input: porkbun-api.cast
-        output: porkbun-api.gif
-        theme: solarized-dark
+      - uses: dgzlopes/asciicast-to-gif-action@v1.0
+        with:
+          input: porkbun-api.cast
+          output: porkbun-api.gif
+          theme: solarized-dark
